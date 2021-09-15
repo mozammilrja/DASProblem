@@ -6,7 +6,7 @@ let largest;
 
 if (Num1 >= Num2 && Num1 == Num3) {
   largest = Num1;
-} else if (Num2 >= Num && Num2 >= Num3) {
+} else if (Num2 >= Num1 && Num2 >= Num3) {
   largest = Num2;
 } else {
   largest = Num3;
