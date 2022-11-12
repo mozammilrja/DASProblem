@@ -42,22 +42,46 @@
 //  prime numbers 1 to n numbers
 
 
-const isPrime = (n) => {
-    if (n == 1 || n == 0) {
-        return false
-    }
-    for (var i = 2; i < n; i++) {
-        if (n % i == 0) {
-            return false
-        }
-    }
-    return true
-}
+// const isPrime = (n) => {
+//     if (n == 1 || n == 0) {
+//         return false
+//     }
+//     for (var i = 2; i < n; i++) {
+//         if (n % i == 0) {
+//             return false
+//         }
+//     }
+//     return true
+// }
 
-    var numbers = 30;
-    for (let i = 1; i <= numbers; i++){
-        if (isPrime(i)) {
-            console.log(i)
-        }
-    }
+//     var numbers = 30;
+//     for (let i = 1; i <= numbers; i++){
+//         if (isPrime(i)) {
+//             console.log(i)
+//         }
+//     }
+
+
+//  prime numbers
+// let n1 = 2;
+// let isPrime = true;
+
+// if (n1 === 1) {
+//     console.log("is not prime");
+// } else if (n1 > 1) {
+    
+//  for (let i = 2; i < n1; i++) {
+//     if (n1 % i == 0) {
+//         isPrime = false;
+//     }
+    
+//  }
+//    if (isPrime) {
+//     console.log(`${n1} is prime numbers`);
+// } else {
+//        console.log(`${n1} is not prime numbers`);
+// }
+// }
+
+
 

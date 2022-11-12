@@ -1,32 +1,32 @@
-function checkPalindrome(x) {
-    let convertedNumber = x.toString();
-    let reverseString = convertedNumber.split("").reverse().join("");
-    return reverseString === convertedNumber ? "Yes" : "No"
-}
+// function checkPalindrome(x) {
+//     let convertedNumber = x.toString();
+//     let reverseString = convertedNumber.split("").reverse().join("");
+//     return reverseString === convertedNumber ? "Yes" : "No"
+// }
 
-let num = 12321;
-let num2 = 456;
-console.log(checkPalindrome(num)); //yes
-console.log(checkPalindrome(num2)); //no
+// let num = 12321;
+// let num2 = 456;
+// console.log(checkPalindrome(num)); //yes
+// console.log(checkPalindrome(num2)); //no
 
 
 // -------------------
 
-function Palindrome(str) {
-    const len = String.length;
-  // loop through half of the string
-    for (let i = 0; i < len / 2; i++){
-        // check if first and last string are same
-        if (str[i] !== str[len - 1 - i]) {
-            return 'it is not palindrome'
-        }
-    }
-    return " it is a Palindrome"
-}
+// function Palindrome(str) {
+//     const len = String.length;
+//   // loop through half of the string
+//     for (let i = 0; i < len / 2; i++){
+//         // check if first and last string are same
+//         if (str[i] !== str[len - 1 - i]) {
+//             return 'it is not palindrome'
+//         }
+//     }
+//     return " it is a Palindrome"
+// }
 
-let num3 = "endenfnEFNSDKNWKND"
+// let num3 = "endenfnEFNSDKNWKND"
 
-console.log(Palindrome(num3));
+// console.log(Palindrome(num3));
 
 // A function to check if n is palindrome given range
 
