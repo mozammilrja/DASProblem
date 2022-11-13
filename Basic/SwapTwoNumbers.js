@@ -1,4 +1,6 @@
 
+// using  destructring
+
 let a = prompt("enter the a numbers:");
 let b =  prompt("enter the b numbers:");
 [a,b] = [b,a]

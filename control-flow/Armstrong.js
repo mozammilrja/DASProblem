@@ -1,14 +1,26 @@
-let n = 100;
-let total = n.length;
+// program to check an Armstrong number of n digits
+
+// take an input
+const number = prompt("Enter a positive integer");
+const numberOfDigits = number.length;
 let sum = 0;
-let temp = n
+
+// create a temporary variable
+let temp = number;
 
 while (temp > 0) {
-    let reminder = temp % 10;
-    sum += reminder ** total
-    temp = parseInt(temp / 10)
+
+    let remainder = temp % 10;
+
+    sum += remainder ** numberOfDigits;
+
+    // removing last digit from the number
+    temp = parseInt(temp / 10); // convert float into integer
 }
 
-if (temp == n) {
-    console.log(n,'armstrong');
+if (sum == number) {
+    console.log(`${number} is an Armstrong number`);
+}
+else {
+    console.log(`${number} is not an Armstrong number.`);
 }

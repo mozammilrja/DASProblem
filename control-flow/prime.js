@@ -1,18 +1,18 @@
-// const isPrime  = (n) => {
-//     if (n <= 1){
-//         return false
-//     }
-//     for (let i = 2; i < n; i++){
-//         if (n % i == 0) {
-//             return false
-//         }
-//         return true
-//     }
+const isPrime  = (n) => {
+    if (n <= 1){
+        return false
+    }
+    for (let i = 2; i < n; i++){
+        if (n % i == 0) {
+            return false
+        }
+        return true
+    }
 
-// }
+}
 
 
-// isPrime(1) ? console.log("is prime number") : console.log("  is not prime number");
+isPrime(5) ? console.log("is prime number") : console.log("  is not prime number");
 
 
 // const isPrime = (n) => {
