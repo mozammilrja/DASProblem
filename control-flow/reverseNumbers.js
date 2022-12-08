@@ -14,6 +14,17 @@
 // console.log(reverseWord(s))
 
 
+function reverse(str) {
+
+    // return str.split('').reverse().join('v') m1
+
+    return [...str].reverse().join('') //m2
+
+}
+
+console.log(reverse("hello"))
+
+
 
 function areEqual(n) {
 
