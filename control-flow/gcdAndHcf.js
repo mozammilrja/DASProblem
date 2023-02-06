@@ -14,8 +14,6 @@ for (let i = 1; i <= n1 && i <= n2; i++) {
 }
 
 
-
-
 console.log(`hcf of ${n1} and  ${n2} is ${result}`);
 
 

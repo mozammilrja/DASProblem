@@ -2,25 +2,25 @@
 
 // map polyfill
 
-// Array.prototype.myMap = function (cb) {
-//     let temp = []
-//     for (let i = 0; i < this.length; i++) {
-//         temp.push(cb(this[i], i, this))
-//     }
-//     return temp;
-// }
+Array.prototype.myMap = function (cb) {
+    let temp = []
+    for (let i = 0; i < this.length; i++) {
+        temp.push(cb(this[i], i, this))
+    }
+    return temp;
+}
 
-// const nums = [1, 2, 3, 4]
+const nums = [1, 2, 3, 4]
 
-// const multiply = nums.myMap((nums, i, arr) => {
+const multiply = nums.myMap((nums, i, arr) => {
 
-//     return nums * 3
-// })
-
-
-// console.log(multiply);
+    return nums * 3
+})
 
 
+console.log(multiply);
+
+// --------------------------------------------------------------------------//
 // filter polyfill
 
 // Array.prototype.myFilter = function (cb) {
@@ -41,6 +41,8 @@
 
 // console.log(moreThanTwo);
 
+
+// --------------------------------------------------------------------------//
 
 
 // reduce polyfill
