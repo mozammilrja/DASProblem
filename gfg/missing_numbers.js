@@ -23,3 +23,13 @@ let N = arr.length;
 
 // Function call
 console.log(getMissingNo(arr, N));
+
+
+function MissingNumber(array,n){
+ const expectedSum = (n * (n + 1)) / 2;
+  const actualSum = array.reduce((acc, cur) => acc + cur, 0);
+  return expectedSum - actualSum;   
+  }
+
+
+

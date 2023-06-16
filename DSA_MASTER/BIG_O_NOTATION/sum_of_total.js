@@ -3,10 +3,10 @@
 
 // sum of all array list
 
-const arr = [2, 4, 56, 6, 7]
+    const arr = [2, 4, 56, 6, 7]
 
-const output = arr.reduce((acc, curr) => acc + curr)
-console.log(output);
+    const output = arr.reduce((acc, curr) => acc + curr)
+    console.log(output);
 
 
 function addUpTo(n) {

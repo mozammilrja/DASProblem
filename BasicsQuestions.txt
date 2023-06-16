@@ -1,0 +1,44 @@
+Reverse a string. ->done
+Check if a string is a palindrome.
+Find the largest number in an array.=>done
+Find the sum of all numbers in an array. =>done
+Remove duplicate elements from an array.
+Find the factorial of a number.
+Check if a number is prime.
+Find the Fibonacci sequence up to a certain number.
+Sort an array in ascending order.
+Check if two arrays are equal.
+Find the longest word in a string.=>done
+Remove falsy values from an array.
+Calculate the average of numbers in an array.
+Merge two sorted arrays into a single sorted array. =>done
+Capitalize the first letter of each word in a string.=>done
+Count the occurrence of a specific element in an array.
+Check if a given string contains a substring.
+Find the intersection of two arrays.
+Find the second smallest number in an array.
+Remove vowels from a string.
+Check if a number is a power of two.
+Reverse the order of words in a string.
+Remove a specific element from an array.
+Find the missing number in a given range of numbers.
+Convert an array into a comma-separated string.
+Check if a string is an anagram of another string.
+Find the maximum occurring character in a string.
+Convert a string to title case.
+Calculate the factorial of a large number (handling large numbers).
+Implement a stack using an array.
+Implement a queue using an array.
+Find the first non-repeating character in a string.
+Check if a number is a palindrome.
+Sort an array of objects based on a specific property.
+Check if a given string is a valid email address.
+Implement a binary search algorithm.
+Find the greatest common divisor (GCD) of two numbers.
+Find the smallest common multiple (LCM) of two numbers.
+Check if a number is a perfect square.
+Reverse the order of words in a sentence.
+Convert a number to Roman numerals.
+Implement a debounce function.
+Implement a throttle function.
+Find the number of vowels in a string.
