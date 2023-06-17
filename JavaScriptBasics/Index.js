@@ -70,3 +70,23 @@
 
 // Remove duplicate elements from an array.
 
+// const arr1 = ["Aman", "Bman", "Cman", "Dman", "Eman", "Fman", "Gman", "Bman"];
+
+// const result = new Set(arr1);
+
+// console.log(result);
+
+// Find the longest word in a string
+
+function findLongestWord(str) {
+  let strSplit = str.split(" ");
+  let longestWord = "";
+  for (let i = 0; i < strSplit.length; i++) {
+    if (strSplit[i].length > longestWord.length) {
+      longestWord = strSplit[i];
+    }
+  }
+  return longestWord;
+}
+
+console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
