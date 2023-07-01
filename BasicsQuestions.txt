@@ -1,25 +1,25 @@
 Reverse a string. ->done
-Check if a string is a palindrome.
+Check if a string is a palindrome.----------------------------------------------------------------
 Find the largest number in an array.=>done
 Find the sum of all numbers in an array. =>done
 Remove duplicate elements from an array.->done
-Find the factorial of a number.
-Check if a number is prime.
-Find the Fibonacci sequence up to a certain number.
+Find the factorial of a number.=>done
+Check if a number is prime.=>done
+Find the Fibonacci sequence up to a certain number.----------------------------------------------------------------
 Sort an array in ascending order.
-Check if two arrays are equal.->done
+Check if two arrays are equal.->done ------------------------------------------------------------------------------------------------
 Find the longest word in a string.=>done
-Remove falsy values from an array.
-Calculate the average of numbers in an array.
+Remove falsy values from an array => done
+Calculate the average of numbers in an array=>done ----------------------------------------------------------------
 Merge two sorted arrays into a single sorted array. =>done
 Capitalize the first letter of each word in a string.=>done
-Count the occurrence of a specific element in an array.
+Count the occurrence of a specific element in an array.----------------------------------------------------------------
 Check if a given string contains a substring.
-Find the intersection of two arrays.
+Find the intersection of two arrays.=>done
 Find the second smallest number in an array.
 Remove vowels from a string.
 Check if a number is a power of two.
-Reverse the order of words in a string.
+Reverse the order of words in a string.=>done 
 Remove a specific element from an array.
 Find the missing number in a given range of numbers.
 Convert an array into a comma-separated string.
@@ -41,6 +41,56 @@ Reverse the order of words in a sentence.
 Convert a number to Roman numerals.
 Implement a debounce function.
 Implement a throttle function.
-Find the number of vowels in a string.
+Find the number of vowels in a string. =>done
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-end->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ARRAY QUESTIONS IMPORTANT<<<<<<<<<<<<<<<<<<
+
+
+Find the Missing Number: Given an array containing numbers from 1 to N with one missing number, find the missing number.
+
+Merge Sorted Arrays: Given two sorted arrays, merge them into a single sorted array.
+
+Remove Duplicates from Sorted Array: Given a sorted array, remove duplicate elements in-place and return the new length.
+
+Maximum Subarray Sum: Find the contiguous subarray within an array with the largest sum.
+
+Rotate Array: Rotate an array to the right by k steps.
+
+Product of Array Except Self: Given an array, return an array where each element is the product of all the elements of the input array except itself.
+
+Find Single Number: Given an array of integers, where every element appears twice except for one, find that single number.
+
+Two Sum: Given an array of integers, find two numbers that add up to a specific target.
+
+Container With Most Water: Given n non-negative integers representing vertical lines, find two lines that together with the x-axis form a container that holds the most water.
+
+Largest Subarray with Zero Sum: Given an array, find the length of the longest subarray with a sum of 0.
+
+Find Duplicate Number: Given an array containing n + 1 integers where each integer is between 1 and n (inclusive), find the duplicate number.
+
+Majority Element: Given an array of size n, find the majority element (appears more than n/2 times).
+
+Maximum Product Subarray: Find the contiguous subarray within an array with the largest product.
+
+Next Permutation: Implement the next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+
+Sort Colors: Given an array with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent.
+
+Trapping Rain Water: Given n non-negative integers representing an elevation map, compute how much water it can trap after raining.
+
+Spiral Matrix: Given a matrix of m x n elements, return all elements of the matrix in spiral order.
+
+Set Matrix Zeroes: Given a m x n matrix, if an element is 0, set its entire row and column to 0.
+
+Kth Largest Element in an Array: Find the kth largest element in an unsorted array.
+
+Jump Game: Determine if you can reach the last index of the array by jumping from index to index.
+
+
+
+
+
