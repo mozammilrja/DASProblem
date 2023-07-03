@@ -1,5 +1,4 @@
 // Reverse a string.
-
 // function reverseString(str) {
 //   const reverseStr = str.split("").reverse().join("");
 //   return reverseStr;
@@ -330,20 +329,198 @@ function reverseWords(str) {
 
 // console.log(stringWithoutVowels);
 
-function removeVowels(str) {
-  const vowels = new Set(["a", "e", "i", "o", "u"]);
-  let result = "";
+// function removeVowels(str) {
+//   const vowels = new Set(["a", "e", "i", "o", "u"]);
+//   let result = "";
 
-  for (let i = 0; i < str.length; i++) {
-    const char = str[i];
+//   for (let i = 0; i < str.length; i++) {
+//     const char = str[i];
+//     if (!vowels.has(char)) {
+//       result += char;
+//     }
+//   }
 
-    if (!vowels.has(char)) {
-      result += char;
+//   return result;
+// }
+
+// const words = "hello world";
+// console.log(removeVowels(words));
+
+// Find the second smallest number in an array.
+
+// function secondSmallest(arr) {
+//   const uniqueElement = Array.from(new Set(arr));
+//   if (uniqueElement.length < 2) {
+//     console.log("There is no second largest number.");
+//   } else {
+//     uniqueElement.sort((a, b) => a - b);
+//     console.log("There is a second largest number", uniqueElement[1]);
+//   }
+// }
+
+// const numbers = [12, 35, 1, 10, 34, 1];
+// secondSmallest(numbers);
+
+// Find the second largest number in an array.
+
+// function secondLargest(arr) {
+//   const uniqueElement = Array.from(new Set(arr));
+//   if (uniqueElement.length < 2) {
+//     console.log("There is no second largest number.")
+//   } else {
+//     uniqueElement.sort((a, b)=> b-a)
+//     console.log("There is a second largest number", uniqueElement[1])
+//   }
+// }
+
+// finf prime number optimization solution
+
+function isPrime(num) {
+  if (num <= 1 || num % 2 === 0) return false;
+  if (num === 2) return true;
+
+  if (num % 2 === 0) {
+    return false;
+  }
+  return true;
+}
+console.log(isPrime(11));
+
+// const numbers = [12, 35, 1, 10, 34, 1];
+// secondLargest(numbers);
+
+// Remove a specific element from an array.
+
+// function removeElement(arr) {
+//   arr.pop(1);
+// }
+
+// const numbers = [12, 35, 1, 10, 34, 1];
+
+//   numbers.splice(4);
+
+// // const result = removeElement(numbers);
+// console.log(numbers);
+
+// function evenPrime(num) {
+//   for (let i = 0; i < num.length; i++) {
+//     if (num*i % 2 === 0) {
+//       return "even";
+//     } else {
+//       return "not even";
+//     }
+//   }
+// }
+// console.log(evenPrime(11));
+
+// function isPrime(num) {
+//   if (num <= 1) {
+//     return false;
+//   }
+//   for (let i = 2; i <= Math.sqrt(num); i++) {
+//     if (num % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// function printEvenPrimeNumbers(start, end) {
+//   for (let num = start; num <= end; num += 2) {
+//     if (isPrime(num)) {
+//       console.log(num);
+//     }
+//   }
+// }
+// printEvenPrimeNumbers(1, 100);
+
+// function isPrime(num) {
+//   if (num <= 1) {
+//     return false;
+//   }
+//   for (let i = 2; i <= Math.sqrt(num); i++) {
+//     if (num % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// function printEvenPrimeNumbers(start, end) {
+//   for (let num = start; num <= end; num++) {
+//     if (num % 2 === 0 && isPrime(num)) {
+//       console.log(num);
+//     }
+//   }
+// }
+// printEvenPrimeNumbers(1, 50);
+// // even output 2
+
+// 1 to 100 even odd prime numbers finds
+
+// function isPrime(num) {
+//   if (num <= 1) {
+//     return false;
+//   }
+//   if (num === 2) {
+//     return true;
+//   }
+//   if (num % 2 === 0) {
+//     return false;
+//   }
+
+//   for (let i = 3; i * i <= num; i += 2) {
+//     if (num % i === 0) {
+//       return false;
+//     }
+//   }
+
+//   return true;
+// }
+
+// function printEvenPrimeNumbers(start, end) {
+//   for (let num = start; num <= end; num++) {
+//     if (num % 2 === 0 && isPrime(num)) {
+//       console.log(num);
+//     }
+//   }
+// }
+
+// printEvenPrimeNumbers(1, 50);
+
+// function isPrime(num) {
+//   if (num <= 1) return false;
+//   for (let i = 2; i < Math.sqrt(num); i++) {
+//     if (num % 2 === 0) return false;
+//   }
+//   return true;
+// }
+
+// function printEvenPrimeNumbers(start, end) {
+//   for (let num = start; num < end; num++) {
+//     if (!num % 2 === 0 && isPrime(num)) {
+//       console.log(num);
+//     }
+//   }
+// }
+
+// printEvenPrimeNumbers(1, 20);
+
+function isPrime(num) {
+  if (num <= 1 && num % 2 === 0) return false;
+  if (num === 2) return true;
+
+  for (let i = 3; i * i < num; i += 2) {
+    if (num % 2 === 0) {
+      return false;
     }
   }
-
-  return result;
+  return true;
 }
-
-const words = "hello world";
-console.log(removeVowels(words));
+function printEvenPrimeNumbers(start, end) {
+  for (let num = start; num < end; num++) {
+    if (num % 2 === 0 && isPrime(num)) {
+      console.log(num);
+    }
+  }
+}
+printEvenPrimeNumbers(1, 20);

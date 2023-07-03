@@ -16,8 +16,8 @@ Capitalize the first letter of each word in a string.=>done
 Count the occurrence of a specific element in an array.----------------------------------------------------------------
 Check if a given string contains a substring.
 Find the intersection of two arrays.=>done
-Find the second smallest number in an array.
-Remove vowels from a string.
+Find the second smallest number in an array.=>done ----------------------------------------------------------------
+Remove vowels from a string.=>done ----------------------------------------------------------------
 Check if a number is a power of two.
 Reverse the order of words in a string.=>done 
 Remove a specific element from an array.
