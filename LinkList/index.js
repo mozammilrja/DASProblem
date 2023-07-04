@@ -118,7 +118,6 @@ console.log(myLinkList);
 
 // optimized code
 
-
 class Node {
   constructor(data) {
     this.data = data;
@@ -161,9 +160,9 @@ function createLinkedList(arr) {
 
 function printLinkedList(head) {
   let current = head;
-  let result = '';
+  let result = "";
   while (current !== null) {
-    result += current.data + ' ';
+    result += current.data + " ";
     current = current.next;
   }
   console.log(result.trim());
