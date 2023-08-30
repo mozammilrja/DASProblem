@@ -1,22 +1,19 @@
-
-
 // using recusrion n numers
 
 function fibonacci(n) {
-    if (n == 1) {
-        return 0;
-    }
-    if (n == 2) {
-        return 1
-    }
-    return fibonacci(n-1) + fibonacci(n-2)
+  if (n == 1) {
+    return 0;
+  }
+  if (n == 2) {
+    return 1;
+  }
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-const num =  prompt("enter the numbers:")
+// const num =  prompt("enter the numbers:")
+const num = 20;
 
-
-console.log(fibonacci(num))
-
+console.log(fibonacci(num));
 
 // nth number of fibonacci series using for loop
 // const num = prompt("enter the numbers:")
@@ -30,5 +27,5 @@ console.log(fibonacci(num))
 
 //     n1 = n2;
 //     n2 = result;
-    
+
 // }
