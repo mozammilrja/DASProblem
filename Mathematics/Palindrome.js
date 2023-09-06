@@ -7,11 +7,9 @@ function Palindrome(x) {
   if (x < 0) {
     return false; // Negative numbers cannot be palindromes
   }
-
   // Convert the number to a string to work with its individual digits
   let str = x.toString();
   let len = str.length;
-
   // Loop through the string from both ends towards the center
   for (let i = 0; i < len / 2; i++) {
     // Compare characters at opposite positions in the string
