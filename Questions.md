@@ -1,11 +1,12 @@
 # Basics Questions
+
 Reverse a string. ->done
 Check if a string is a palindrome.
 Find the largest number in an array.=>done
 Find the sum of all numbers in an array. =>done
-Remove duplicate elements from an array.
-Find the factorial of a number.
-Check if a number is prime.
+Remove duplicate elements from an array. done
+Find the factorial of a number. done
+Check if a number is prime. done
 Find the Fibonacci sequence up to a certain number.
 Sort an array in ascending order.
 Check if two arrays are equal.
