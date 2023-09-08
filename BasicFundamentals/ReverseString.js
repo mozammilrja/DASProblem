@@ -2,7 +2,7 @@
 function reverse(str) {
   const numStr = str.toString();
 
-  let res = numStr.split("").join("");
+  let res = numStr.split("").reverse().join("");
   return res;
 }
 
