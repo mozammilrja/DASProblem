@@ -2,10 +2,6 @@
 
 This repository contains implementations of various data structures and algorithms in JavaScript. It's designed to help you learn and practice DSA concepts in JavaScript.
 
-# JavaScript Data Structures and Algorithms
-
-This repository contains implementations of various data structures and algorithms in JavaScript. It's designed to help you learn and practice DSA concepts in JavaScript.
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
