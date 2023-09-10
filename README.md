@@ -1,4 +1,4 @@
-# Data Structures and Algorithms Tutorials
+ # Data Structures and Algorithms Tutorials
 
 Welcome to the Data Structures and Algorithms Tutorials repository! This repository contains detailed tutorials on different data structures (DS) along with topic-wise problems to help you understand and master these fundamental concepts.
 
@@ -28,6 +28,25 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Introduction to Hierarchical Data Structure](#)
 - [Overview of Data Structures | Set 3 (Graph, Trie, Segment Tree, and Suffix Tree)](#)
 - [Abstract Data Types](#)
+
+### Arrays vs Other Data Structures
+
+- Left Rotation of the Array by 1
+- Check if Sorted
+- Left Rotation of the Array by D Places
+- Leaders in an Array
+- Maximum Difference Problem
+- Frequencies in Sorted Array
+- Stock Buy and Sell Problem
+- Trapping Rainwater Problem
+- Maximum Consecutive 1s
+- Maximum Subarray Sum
+- Longest Even-Odd Subarray
+- Maximum Circular Sum Subarray
+- Majority Element
+- Minimum Consecutive Flips
+- Sliding Window Technique
+- Prefix Sum Technique
 
 ## Linked List
 
@@ -68,10 +87,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [QuickSort on Doubly Linked List](#)
 - [Merge Sort for Doubly Linked List](#)
 
-### Coding Practice on Linked List
-
-### Recent Articles on Linked List
-
 ## Stack
 
 - [Introduction to Stack](#)
@@ -89,10 +104,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Design a stack with operations on middle element](#)
 - [How to efficiently implement k stacks in a single array?](#)
 
-### Coding Practice on Stack
-
-### Recent Articles on Stack
-
 ## Queue
 
 - [Queue Introduction and Array Implementation](#)
@@ -106,10 +117,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Maximum of all subarrays of size k](#)
 - [An Interesting Method to Generate Binary Numbers from 1 to n](#)
 - [How to efficiently implement k Queues in a single array?](#)
-
-### Coding Practice on Queue
-
-### Recent Articles on Queue
 
 ## Binary Tree
 
@@ -136,12 +143,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Check if a binary tree is a subtree of another binary tree](#)
 - [Connect nodes at the same level](#)
 
-### All articles on Binary Tree
-
-### Coding Practice on Binary Tree
-
-### Recent Articles on Tree
-
 ## Binary Search Tree
 
 - [Search and Insert in BST](#)
@@ -161,12 +162,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Merge Two Balanced Binary Search Trees](#)
 - [Binary Tree to Binary Search Tree Conversion](#)
 
-### All Articles on Binary Search Tree
-
-### Coding Practice on Binary Search Tree
-
-### Recent Articles on BST
-
 ## Heap
 
 - [Binary Heap](#)
@@ -177,12 +172,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Binomial Heap](#)
 - [Fibonacci Heap](#)
 - [Tournament Tree (Winner Tree) and Binary Heap](#)
-
-### All Articles on Heap
-
-### Coding Practice on Heap
-
-### Recent Articles on Heap
 
 ## Hashing
 
@@ -196,12 +185,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Check if a given array contains duplicate elements within k distances from each other](#)
 - [Find Itinerary from a given list of tickets](#)
 - [Find the number of Employees Under every Employee](#)
-
-### All Articles on Hashing
-
-### Coding Practice on Hashing
-
-### Recent Articles on Hashing
 
 ## Graph
 
@@ -222,12 +205,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Minimize Cash Flow among a given set of friends who have borrowed money from each other](#)
 - [Boggle (Find all possible words in a board of characters)](#)
 - [Assign directions to edges so that the directed graph remains acyclic](#)
-
-### All Articles on Graph Data Structure
-
-### Coding Practice on Graph
-
-### Recent Articles on Graph
 
 ## Advanced Data Structure
 
@@ -334,8 +311,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Centroid Decomposition of Tree](#)
 - [Gomory-Hu Tree](#)
 
-### Recent Articles on Advanced Data Structures
-
 ## Array
 
 - [Search, insert and delete in an unsorted array](#)
@@ -357,16 +332,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Sort elements by frequency | Set 1](#)
 - [Count Inversions in an array](#)
 
-### All Articles on Array
-
-### Coding Practice on Array
-
-### Quiz on Array
-
-### Coding Practice on Array
-
-### Recent Articles on Array
-
 ## Matrix
 
 - [Search in a row wise and column-wise sorted matrix](#)
@@ -384,12 +349,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Count the number of islands where every island is row-wise and column-wise separated](#)
 - [Find a common element in all rows of a given row-wise sorted matrix](#)
 
-### All Articles on Matrix
-
-### Coding Practice on Matrix
-
-### Recent Articles on Matrix
-
 ## Misc
 
 - [Commonly Asked Data Structure Interview Questions | Set 1](#)
@@ -397,12 +356,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Expression Tree](#)
 
 ---
-
-Feel free to explore any of the topics listed above to enhance your understanding of data structures and algorithms. Happy learning!
-
-## Introduction
-
-Provide an introductory paragraph about the purpose and goals of your DSA repository. Explain how it can be beneficial for users who want to learn and practice DSA concepts in JavaScript.
 
 ### Installation
 
@@ -417,3 +370,4 @@ cd js-dsa
 
 # Install dependencies (if applicable)
 npm install
+```
