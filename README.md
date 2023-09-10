@@ -22,31 +22,26 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Matrix](#)
 - [Misc](#)
 
-## Advanced Data Structure Overview
+## Array
 
-- [Introduction to Linear Data Structures](#)
-- [Introduction to Hierarchical Data Structure](#)
-- [Overview of Data Structures | Set 3 (Graph, Trie, Segment Tree, and Suffix Tree)](#)
-- [Abstract Data Types](#)
-
-### Arrays vs Other Data Structures
-
-- Left Rotation of the Array by 1
-- Check if Sorted
-- Left Rotation of the Array by D Places
-- Leaders in an Array
-- Maximum Difference Problem
-- Frequencies in Sorted Array
-- Stock Buy and Sell Problem
-- Trapping Rainwater Problem
-- Maximum Consecutive 1s
-- Maximum Subarray Sum
-- Longest Even-Odd Subarray
-- Maximum Circular Sum Subarray
-- Majority Element
-- Minimum Consecutive Flips
-- Sliding Window Technique
-- Prefix Sum Technique
+- [Search, insert and delete in an unsorted array](#)
+- [Search, insert and delete in a sorted array](#)
+- [Write a program to reverse an array](#)
+- [Leaders in an array](#)
+- [Given an array A[] and a number x, check for a pair in A[] with sum as x](#)
+- [Majority Element](#)
+- [Find the Number Occurring Odd Number of Times](#)
+- [Largest Sum Contiguous Subarray](#)
+- [Find the Missing Number](#)
+- [Search an element in a sorted and pivoted array](#)
+- [Merge an array of size n into another array of size m+n](#)
+- [Median of two sorted arrays](#)
+- [Program for array rotation](#)
+- [Reversal algorithm for array rotation](#)
+- [Block swap algorithm for array rotation](#)
+- [Maximum sum such that no two elements are adjacent](#)
+- [Sort elements by frequency | Set 1](#)
+- [Count Inversions in an array](#)
 
 ## Linked List
 
@@ -310,27 +305,6 @@ Welcome to the Data Structures and Algorithms Tutorials repository! This reposit
 - [Sparse Set](#)
 - [Centroid Decomposition of Tree](#)
 - [Gomory-Hu Tree](#)
-
-## Array
-
-- [Search, insert and delete in an unsorted array](#)
-- [Search, insert and delete in a sorted array](#)
-- [Write a program to reverse an array](#)
-- [Leaders in an array](#)
-- [Given an array A[] and a number x, check for a pair in A[] with sum as x](#)
-- [Majority Element](#)
-- [Find the Number Occurring Odd Number of Times](#)
-- [Largest Sum Contiguous Subarray](#)
-- [Find the Missing Number](#)
-- [Search an element in a sorted and pivoted array](#)
-- [Merge an array of size n into another array of size m+n](#)
-- [Median of two sorted arrays](#)
-- [Program for array rotation](#)
-- [Reversal algorithm for array rotation](#)
-- [Block swap algorithm for array rotation](#)
-- [Maximum sum such that no two elements are adjacent](#)
-- [Sort elements by frequency | Set 1](#)
-- [Count Inversions in an array](#)
 
 ## Matrix
 
