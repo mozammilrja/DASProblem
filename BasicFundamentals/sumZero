@@ -1,0 +1,21 @@
+const arr = [-5, -4, -3, -2, 0, 2, 4, 6, 8];
+
+function sumZero(arr) {
+  // Loop through the array with two nested loops.
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      // Check if the sum of elements at indices i and j equals zero.
+      if (arr[i] + arr[j] === 0) {
+        // If a pair with a sum of zero is found, return the pair.
+        return [arr[i], arr[j]];
+      }
+    }
+  }
+
+  // If no pair with a sum of zero is found, return undefined or an appropriate message.
+  return "No pair found with a sum of zero";
+}
+
+// Call the function and print the result.
+console.log(sumZero(arr)); // output: [-4, 4]
+
