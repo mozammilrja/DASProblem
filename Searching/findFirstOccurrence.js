@@ -17,8 +17,8 @@ function findFirstOccurrence(arr, target) {
   return result;
 }
 
-const sortedArray = [3, 7, 11, 13, 19, 27, 35];
-const targetValue = 27;
+const sortedArray = [3, 7, 11, 13, 19, 27,36];
+const targetValue = 36;
 const firstOccurrenceIndex = findFirstOccurrence(sortedArray, targetValue);
 
 if (firstOccurrenceIndex !== -1) {
