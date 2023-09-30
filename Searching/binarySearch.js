@@ -15,6 +15,7 @@ function binarySearch(arr, target) {
 }
 
 // Test cases
+
 let array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let target1 = 5;
 console.log(binarySearch(array1, target1)); // Output: 4 (index of 5 in the array)
@@ -25,6 +26,10 @@ console.log(binarySearch(array2, target2)); // Output: -1 (35 is not in the arra
 
 let array3 = [2, 4, 6, 8, 10];
 let target3 = 8;
+console.log(binarySearch(array3, target3)); // Output: 3 (index of 8 in the array)
+
+let array5 = [3,7,11,13,19,27];
+let target5 = 27;
 console.log(binarySearch(array3, target3)); // Output: 3 (index of 8 in the array)
 
 let array4 = [];
