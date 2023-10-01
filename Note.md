@@ -1,0 +1,4 @@
+<!-- Importent -->
+
+1 Merge sort.
+2 Quick sort
